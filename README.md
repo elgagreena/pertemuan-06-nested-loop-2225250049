@@ -23,9 +23,8 @@ python3 tugas/tabel_perkalian_dan_statistik.py
 | 3 | Total = 36, hasil genap = 5 | Total = 36, hasil genap = 5 | Berhasil |
 
 ## Analisis Efisiensi
-Loop luar berjalan sebanyak n kali dan loop dalam berjalan sebanyak n kali untuk setiap iterasi loop luar. Jadi, badan loop dalam berjalan sebanyak n × n atau n² kali.
+Loop luar berjalan sebanyak n kali dan loop dalam berjalan sebanyak n kali untuk setiap iterasi loop luar. Jadi, badan loop dalam berjalan sebanyak n x n atau n^2 kali. Kompleksitas waktunya adalah O(n^2).
 
-## Refleksi
 ## Refleksi
 Salah satu kesalahan dalam nested loop adalah menginisialisasi ulang variabel total_baris di luar loop luar. Akibatnya, jumlah setiap baris tidak dihitung secara terpisah. Cara memperbaikinya adalah menginisialisasi total_baris = 0 di dalam loop luar sebelum loop dalam dijalankan.
 
